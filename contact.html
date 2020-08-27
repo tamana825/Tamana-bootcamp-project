@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/font-awesome-master/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+	input[type=submit]{
+			background-color: lightblue;
+			color: white;
+			padding: 5px 10px;
+			border: none;
+			margin-top: 20px;
+			border-radius: 5px;
+
+		}
+		.message{
+			visibility: hidden;
+			color: red;
+	     	}
+</style>
+</head>
+<body>
+<ul class="menu">
+      <b><i><li><a href="#" style="font-family: Times New Roman;" 
+      	onmouseover="style.color='white'" onmouseout="style.color='black'">SOW CODER Project</a></li>
+
+    <li><a href="protect of environment.html" style="font-family: Times New Roman;" 
+      	onmouseover="style.color='green'" onmouseout="style.color='black'">Home</a></li>
+      <li><a href="about.html" onmouseover="style.color='green'" onmouseout="style.color='black'">
+      About</a></li>
+
+
+      			<label style="color: black;margin-top: 2%; margin: 1%;
+			 font-family: Script MT Bold; padding-top: 10px; font-size: 16px">search</label>
+			<input type="search" name="" placeholder="search" 
+			style="font-family: Script MT Bold ; " >
+  </i></b>
+    </ul>
+
+
+<div class="container">
+	<div class="row">
+		
+		<div class="col-md-5 col-1 col-md-offset-3"  >	
+<dir class="panel panel-info">
+	<div class="panel-heading">
+		<h2 style="font-family:Times New Roman; text-align: center;">Form</h2></div>
+		<div class="panel-body">
+
+
+		<form name="login" onsubmit="return validate()" action="mass.html">
+
+	<b>Name </b>: <input type="text" name="username" id="a" class="form-control"><br>
+<b>Email </b>: <input type="email" name="email" id="c" class="form-control"><br>
+<b>comment </b>:<textarea id="d" class="form-control" rows="6" cols="4"></textarea><br>
+
+
+	<span class="message" id="eroremessage" style="font-size: 18px;"><b>this field is requeird</b></span><br>
+	<b>password :</b> <input type="password" name="password" id="b" class="form-control">
+
+
+	<br><br><input type="submit" name="" value="submit" class="form-control">
+			<div class="panel-footer panel-info"><h5 style="font-family:Times New Roman; text-align: center;"><i><b>SOW-Coder BOOTCAMP PROJECT!</b></i></h5></div>
+		
+</form>
+
+<script type="text/javascript">
+
+	function validate(){
+		var t = document.forms["login"]["username"].value;
+		var j = document.forms["login"]["password"].value;
+		if (t == "" && j== "") {
+			document.getElementById('eroremessage').style.visibility = "visible";
+			return false;}
+			if (t == "Success Group" && j=="123") {
+				return true;
+			} else {
+				alert("username and password is in correct");
+				return false;
+
+			}
+		}
+</script>
+			
+		
+	</div>
+	</div>
+</dir>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+    		<footer style="width: 100%;height: auto; background-color: steelblue;" >
+			<h4  style="text-align: center;font-family: Times New Roman; padding: 13px;"
+			onmouseover="style.color='green'" onmouseout="style.color='black'">
+				<b><i>copyright @ sow coder</h4></i></b>
+				<center><div id="dinan"><h4 style="text-align: center;
+ color: black; font-family: Times New Roman; ">
+Prepared:by Tamana 'Bostani' BOOTCAMP PROJECT</h4>
+</div></center>
+
+
+
+
+<center>
+
+<i class="fa fa-youtube fa-1x" style="margin: 1%; color: white; text-align: center;"></i>
+<i class="fa fa-twitter fa-1x" style="margin: 1%; color: white; text-align: center;"></i>
+<i class="fa fa-phone fa-1x" style="margin: 1%; color: white; text-align: center;"></i>
+<i class="fa fa-telegram fa-1x" style="margin: 1%; color: white; text-align: center;"></i>
+<i class="fa fa-envelope fa-1x" style="margin: 1%; color: white; text-align: center;"></i></center>
+<br><br>
+
+		</footer>
+</body>
+</html>
