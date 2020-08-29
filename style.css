@@ -1,0 +1,44 @@
+	.menu {
+  list-style: none;
+  background-color: steelblue;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+ border-top-left-radius: 33%;
+  border:3px solid black; 
+}
+
+.menu li {
+  float: left;
+  list-style: none;
+}
+
+.menu li a {
+  display: block;
+  padding: 14px 16px;
+  font-size: 18px;
+
+  text-align: center;
+  text-decoration: none;
+  font-family: Times New Roman;
+}
+li a {
+	margin-top: 8%;
+}
+
+	#dinan {
+    width: 15%;
+    height: 5%;
+    border-radius: 16%;
+    box-shadow: 2px 3px green;
+    border: 1px solid black;
+    background: lightblue;
+    -webkit-transition-property: width; 
+    -webkit-transition-duration: 5s; 
+    transition-property: width;
+    transition-duration: 5s;
+}
+
+#dinan:hover {
+    width: 33%;
+}
